@@ -1,0 +1,26 @@
+[
+  {
+    "name": "A",
+    "marks": 200
+  },
+  {
+    "name": "B",
+    "marks":100
+  },
+  {
+    "name": "C",
+    "marks":290
+  },
+  {
+    "name": "D",
+    "marks":72
+  },
+  {
+    "name": "E",
+    "marks": 156
+  },
+  {
+    "name": "R",
+    "marks": 156
+  }
+]
