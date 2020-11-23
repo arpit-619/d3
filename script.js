@@ -182,28 +182,3 @@ var path = g.selectAll('path')
         .style("cursor", "none");    
   })
   .each(function(d, i) { this._current = i; });
-
-// let legend = d3.select("#chart").append('div')
-// 			.attr('class', 'legend')
-// 			.style('margin-top', '30px');
-
-// let keys = legend.selectAll('.key')
-// 			.data(data)
-// 			.enter().append('div')
-// 			.attr('class', 'key')
-// 			.style('display', 'flex')
-// 			.style('align-items', 'center')
-// 			.style('margin-right', '20px');
-
-// 		keys.append('div')
-// 			.attr('class', 'symbol')
-// 			.style('height', '10px')
-// 			.style('width', '10px')
-// 			.style('margin', '5px 5px')
-// 			.style('background-color', (d, i) => color(i));
-
-// 		keys.append('div')
-// 			.attr('class', 'name')
-// 			.text(d => `${d.name} (${d.value})`);
-
-// 		keys.exit().remove();
